@@ -16,10 +16,26 @@
 		</nav>
 	</header>
 		<img id="google-logo" src="images/google-logo.png">
-	<form id="searchbox" action="#" method="GET">
-		<input type="text" onfocus="if(this.value == 'Search Google') { this.value = ''; }" name="query" value="Search Google">
-		<input class= "search-button" type="submit" value="Google Search">
-		<input class= "search-button" type="submit" value="I'm feeling lucky">
-	</form>
+		<form action="#" method="GET">
+		<input id="searchbox" type="text" onfocus="if(this.value == 'Search Google') { this.value = ''; }" name="query" value="Search Google">
+		<div class="button-container">
+			<input id="google-button" type="submit" value="Google Search">
+			<input id="lucky-button" type="submit" value="I'm feeling lucky">
+		</div>
+		</form>
+	<footer>
+		<div id="footer">
+		<ul id="left-footer">
+			<li><a href="">Advertising</a></li>
+			<li><a href="">Business</a></li>
+			<li><a href="">About</a></li>
+		</ul>
+		<ul id ="right-footer">
+			<li><a href="">Privacy</a></li>
+			<li><a href="">Terms</a></li>
+			<li><a href="">Settings</a></li>
+		</ul>
+		</div>
+	</footer>
 </body>
 </html>

@@ -33,18 +33,67 @@ nav ul li a {
 	display:block;
 	clear:both;
 	margin:auto;
-	max-width: 50%;
+	max-width: 30%;
 }
 
 #searchbox{
 	display: block;
 	margin: auto;
 	margin-top: 5%;
+	margin-bottom: 2.5%;
 	max-width: 10%;
-	background: grey;
 }
 
-.search-button {
+.button-container {
+	display: block;
+	max-width:10%;
+	margin: auto;
+	background: grey
+}
+
+#google-button {
+	display:inline;
+	margin: auto;
+	float: left;
+}
+
+#lucky-button {
+	display:inline;
+	margin: auto;
+	float: right;
+}
+
+#footer {
+	display:block;
+	width:100%;
+	position: fixed;
+	bottom: 0px;
+	background:#f2f2f2;
+}
+
+footer ul#left-footer{
+	padding: 0 0 0 20px;
+	margin: 25px;
 	display: inline;
-	max-width:50%;
+	float:left;
+}
+
+footer ul#right-footer{
+	padding: 0 0 0 20px;
+	margin: 25px;
+	display: inline;
+	float:right;
+}
+
+footer ul li {
+	list-style-type: none;
+	display:inline-block;
+	float:left;
+	padding: 5px 15px;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+
 }
