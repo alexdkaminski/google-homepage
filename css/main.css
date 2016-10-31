@@ -1,0 +1,50 @@
+body {
+	margin:0;
+}
+nav ul {
+	padding: 0 0 0 20px;
+	margin: 20px 20px 0 20px;
+	display: inline;
+	float:right;
+}
+
+nav ul li {
+	list-style-type: none;
+	display:inline-block;
+	float:left;
+	padding: 5px 15px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+
+}
+
+#sign-in {
+	background: rgb(66, 133, 244);
+}
+
+#sign-in a {
+	color: rgb(255, 255 ,255);
+}
+
+#google-logo{
+	display:block;
+	clear:both;
+	margin:auto;
+	max-width: 50%;
+}
+
+#searchbox{
+	display: block;
+	margin: auto;
+	margin-top: 5%;
+	max-width: 10%;
+	background: grey;
+}
+
+.search-button {
+	display: inline;
+	max-width:50%;
+}
